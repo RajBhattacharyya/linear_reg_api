@@ -31,4 +31,4 @@ api.add_resource(getData, '/api')
 api.add_resource(prediction, '/prediction/<int:area>')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
